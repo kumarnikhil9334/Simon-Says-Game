@@ -1,0 +1,65 @@
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-one,
+.line-two {
+    display: flex;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1.5rem;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
+
+.game-over {
+    background-color: #ffcccc;
+}
+
+@media (max-width: 500px) {
+    .btn {
+        height: 120px;
+        width: 120px;
+        margin: 0.8rem;
+    }
+}
